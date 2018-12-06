@@ -9,5 +9,4 @@ import Foundation
 
 protocol BaseValidator {
     func orThrow() throws
-    func error() -> NSError
 }
