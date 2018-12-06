@@ -49,6 +49,7 @@
 		D20AA67E21B8E9EF001082D4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA67B21B8E9EE001082D4 /* BaseView.swift */; };
 		D20AA67F21B8E9EF001082D4 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA67C21B8E9EF001082D4 /* BaseViewModel.swift */; };
 		D20AA68021B8E9EF001082D4 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA67D21B8E9EF001082D4 /* BaseInteractor.swift */; };
+		D20AA68321B9D71C001082D4 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68221B9D71C001082D4 /* Errors.swift */; };
 		EFDD2AF0A03595D011B2A1C2 /* Pods_EvenTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B64D97EBE3E6D07C9FFEC82 /* Pods_EvenTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -122,6 +123,7 @@
 		D20AA67B21B8E9EE001082D4 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		D20AA67C21B8E9EF001082D4 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		D20AA67D21B8E9EF001082D4 /* BaseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		D20AA68221B9D71C001082D4 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		E0DF6D54F0A44988E90CB142 /* Pods-EvenTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTaskTests/Pods-EvenTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		F0091FA47E227BEDE26713BC /* Pods-EvenTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTaskUITests/Pods-EvenTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0C7B33130A2A6D474B6353 /* Pods-EvenTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTask/Pods-EvenTask.debug.xcconfig"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 				D20AA63021B8E8F4001082D4 /* IsValidPassword.swift */,
 				D20AA62F21B8E8F3001082D4 /* NotEmpty.swift */,
 				D20AA63121B8E8F4001082D4 /* NotOptional.swift */,
+				D20AA68221B9D71C001082D4 /* Errors.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -693,6 +696,7 @@
 				D20AA67821B8E9AD001082D4 /* AlamofireManager.swift in Sources */,
 				D20AA64121B8E90F001082D4 /* User.swift in Sources */,
 				D20AA62B21B8E8B7001082D4 /* Date+Helpers.swift in Sources */,
+				D20AA68321B9D71C001082D4 /* Errors.swift in Sources */,
 				D20AA65B21B8E996001082D4 /* AddEventView.swift in Sources */,
 				D20AA64F21B8E987001082D4 /* LoginViewModel.swift in Sources */,
 				D20AA63E21B8E90F001082D4 /* Dependency.swift in Sources */,
