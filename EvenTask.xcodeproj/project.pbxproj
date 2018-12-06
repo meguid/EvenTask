@@ -284,9 +284,9 @@
 		D20AA64321B8E928001082D4 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				D20AA65321B8E995001082D4 /* Events.storyboard */,
 				D20AA65421B8E996001082D4 /* Add Event */,
 				D20AA65221B8E995001082D4 /* Events List */,
-				D20AA65321B8E995001082D4 /* Events.storyboard */,
 				D20AA65821B8E996001082D4 /* Tasks List */,
 			);
 			path = Events;
@@ -327,8 +327,8 @@
 		D20AA64821B8E986001082D4 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA64921B8E986001082D4 /* LoginViewModel.swift */,
 				D20AA64A21B8E986001082D4 /* LoginView.swift */,
+				D20AA64921B8E986001082D4 /* LoginViewModel.swift */,
 				D20AA64B21B8E986001082D4 /* LoginInteractor.swift */,
 			);
 			path = Login;
@@ -358,9 +358,9 @@
 		D20AA65421B8E996001082D4 /* Add Event */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA65521B8E996001082D4 /* AddEventInteractor.swift */,
 				D20AA65621B8E996001082D4 /* AddEventView.swift */,
 				D20AA65721B8E996001082D4 /* AddEventViewModel.swift */,
+				D20AA65521B8E996001082D4 /* AddEventInteractor.swift */,
 			);
 			path = "Add Event";
 			sourceTree = "<group>";
@@ -402,8 +402,8 @@
 		D20AA66621B8E9AC001082D4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA66721B8E9AC001082D4 /* MoyaManager.swift */,
 				D20AA66821B8E9AC001082D4 /* Models */,
+				D20AA66721B8E9AC001082D4 /* MoyaManager.swift */,
 				D20AA66D21B8E9AC001082D4 /* AlamofireManager.swift */,
 			);
 			name = Network;
