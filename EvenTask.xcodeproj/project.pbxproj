@@ -203,12 +203,12 @@
 		D20AA5F621B8D640001082D4 /* EvenTask */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA5F721B8D640001082D4 /* AppDelegate.swift */,
 				D20AA62521B8E8A5001082D4 /* Helpers */,
-				D20AA62C21B8E8E4001082D4 /* Validators */,
 				D20AA63721B8E8FA001082D4 /* Models */,
+				D20AA62C21B8E8E4001082D4 /* Validators */,
 				D20AA64221B8E917001082D4 /* Modules */,
 				D20AA64621B8E95B001082D4 /* Externals */,
+				D20AA5F721B8D640001082D4 /* AppDelegate.swift */,
 				D20AA5FE21B8D642001082D4 /* Assets.xcassets */,
 				D20AA60021B8D642001082D4 /* LaunchScreen.storyboard */,
 				D20AA60321B8D642001082D4 /* Info.plist */,
