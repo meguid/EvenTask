@@ -1,0 +1,24 @@
+PODS:
+  - PromisesObjC (1.2.3)
+  - PromisesSwift (1.2.3):
+    - PromisesObjC (= 1.2.3)
+  - SimpleTwoWayBinding (0.0.2)
+
+DEPENDENCIES:
+  - PromisesSwift
+  - SimpleTwoWayBinding
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PromisesObjC
+    - PromisesSwift
+    - SimpleTwoWayBinding
+
+SPEC CHECKSUMS:
+  PromisesObjC: a3a4263d8a9260214267e0b3788d0f83466ad449
+  PromisesSwift: f7f45c21986419e85f7c5b645ed8c6a2c10c04b4
+  SimpleTwoWayBinding: de39917a921732dcb0dc0a0d120542fbfa7bd159
+
+PODFILE CHECKSUM: 6c008f81400b3af3f131ff49bd4218a303e6d21a
+
+COCOAPODS: 1.5.3
