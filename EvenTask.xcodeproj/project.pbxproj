@@ -14,9 +14,6 @@
 		D20AA60221B8D642001082D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20AA60021B8D642001082D4 /* LaunchScreen.storyboard */; };
 		D20AA60D21B8D642001082D4 /* EvenTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA60C21B8D642001082D4 /* EvenTaskTests.swift */; };
 		D20AA61821B8D642001082D4 /* EvenTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA61721B8D642001082D4 /* EvenTaskUITests.swift */; };
-		D20AA62921B8E8B7001082D4 /* UI+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA62621B8E8B6001082D4 /* UI+Helpers.swift */; };
-		D20AA62A21B8E8B7001082D4 /* Codable+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA62721B8E8B6001082D4 /* Codable+Helpers.swift */; };
-		D20AA62B21B8E8B7001082D4 /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA62821B8E8B6001082D4 /* Date+Helpers.swift */; };
 		D20AA63221B8E8F4001082D4 /* IsValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA62D21B8E8F3001082D4 /* IsValidEmail.swift */; };
 		D20AA63321B8E8F4001082D4 /* BaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA62E21B8E8F3001082D4 /* BaseValidator.swift */; };
 		D20AA63421B8E8F4001082D4 /* NotEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA62F21B8E8F3001082D4 /* NotEmpty.swift */; };
@@ -50,6 +47,11 @@
 		D20AA69D21BA75CC001082D4 /* AddTaskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69221BA75CC001082D4 /* AddTaskRequest.swift */; };
 		D20AA69E21BA75CC001082D4 /* AlamofireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69321BA75CC001082D4 /* AlamofireManager.swift */; };
 		D20AA69F21BA75CC001082D4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69521BA75CC001082D4 /* Router.swift */; };
+		E271337421BAA9C400BAD253 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271336F21BAA9C400BAD253 /* Storyboard.swift */; };
+		E271337521BAA9C400BAD253 /* Codable+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337021BAA9C400BAD253 /* Codable+Helpers.swift */; };
+		E271337621BAA9C400BAD253 /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337121BAA9C400BAD253 /* Date+Helpers.swift */; };
+		E271337721BAA9C400BAD253 /* UI+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337221BAA9C400BAD253 /* UI+Helpers.swift */; };
+		E271337821BAA9C400BAD253 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337321BAA9C400BAD253 /* UIViewController+Storyboard.swift */; };
 		EFDD2AF0A03595D011B2A1C2 /* Pods_EvenTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B64D97EBE3E6D07C9FFEC82 /* Pods_EvenTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,9 +90,6 @@
 		D20AA61321B8D642001082D4 /* EvenTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvenTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20AA61721B8D642001082D4 /* EvenTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenTaskUITests.swift; sourceTree = "<group>"; };
 		D20AA61921B8D642001082D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D20AA62621B8E8B6001082D4 /* UI+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI+Helpers.swift"; sourceTree = "<group>"; };
-		D20AA62721B8E8B6001082D4 /* Codable+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Helpers.swift"; sourceTree = "<group>"; };
-		D20AA62821B8E8B6001082D4 /* Date+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
 		D20AA62D21B8E8F3001082D4 /* IsValidEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsValidEmail.swift; sourceTree = "<group>"; };
 		D20AA62E21B8E8F3001082D4 /* BaseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseValidator.swift; sourceTree = "<group>"; };
 		D20AA62F21B8E8F3001082D4 /* NotEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotEmpty.swift; sourceTree = "<group>"; };
@@ -125,6 +124,11 @@
 		D20AA69321BA75CC001082D4 /* AlamofireManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireManager.swift; sourceTree = "<group>"; };
 		D20AA69521BA75CC001082D4 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		E0DF6D54F0A44988E90CB142 /* Pods-EvenTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTaskTests/Pods-EvenTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		E271336F21BAA9C400BAD253 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		E271337021BAA9C400BAD253 /* Codable+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Helpers.swift"; sourceTree = "<group>"; };
+		E271337121BAA9C400BAD253 /* Date+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
+		E271337221BAA9C400BAD253 /* UI+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI+Helpers.swift"; sourceTree = "<group>"; };
+		E271337321BAA9C400BAD253 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
 		F0091FA47E227BEDE26713BC /* Pods-EvenTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTaskUITests/Pods-EvenTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0C7B33130A2A6D474B6353 /* Pods-EvenTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTask/Pods-EvenTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -239,9 +243,11 @@
 		D20AA62521B8E8A5001082D4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA62721B8E8B6001082D4 /* Codable+Helpers.swift */,
-				D20AA62821B8E8B6001082D4 /* Date+Helpers.swift */,
-				D20AA62621B8E8B6001082D4 /* UI+Helpers.swift */,
+				E271337021BAA9C400BAD253 /* Codable+Helpers.swift */,
+				E271337121BAA9C400BAD253 /* Date+Helpers.swift */,
+				E271336F21BAA9C400BAD253 /* Storyboard.swift */,
+				E271337221BAA9C400BAD253 /* UI+Helpers.swift */,
+				E271337321BAA9C400BAD253 /* UIViewController+Storyboard.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -676,8 +682,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D20AA65121B8E987001082D4 /* LoginInteractor.swift in Sources */,
+				E271337621BAA9C400BAD253 /* Date+Helpers.swift in Sources */,
 				D20AA63421B8E8F4001082D4 /* NotEmpty.swift in Sources */,
-				D20AA62A21B8E8B7001082D4 /* Codable+Helpers.swift in Sources */,
 				D20AA63D21B8E90F001082D4 /* Task.swift in Sources */,
 				D20AA63221B8E8F4001082D4 /* IsValidEmail.swift in Sources */,
 				D20AA69B21BA75CC001082D4 /* MoyaManager.swift in Sources */,
@@ -687,23 +693,25 @@
 				D20AA63621B8E8F4001082D4 /* NotOptional.swift in Sources */,
 				D20AA69F21BA75CC001082D4 /* Router.swift in Sources */,
 				D20AA64121B8E90F001082D4 /* User.swift in Sources */,
-				D20AA62B21B8E8B7001082D4 /* Date+Helpers.swift in Sources */,
 				D20AA69921BA75CC001082D4 /* AppleLocationManager.swift in Sources */,
 				D20AA68321B9D71C001082D4 /* Errors.swift in Sources */,
 				D20AA65B21B8E996001082D4 /* AddEventView.swift in Sources */,
 				D20AA64F21B8E987001082D4 /* LoginViewModel.swift in Sources */,
+				E271337721BAA9C400BAD253 /* UI+Helpers.swift in Sources */,
 				D20AA69A21BA75CC001082D4 /* GoogleLocationManager.swift in Sources */,
 				D20AA63E21B8E90F001082D4 /* Dependency.swift in Sources */,
 				D20AA63321B8E8F4001082D4 /* BaseValidator.swift in Sources */,
 				D20AA69E21BA75CC001082D4 /* AlamofireManager.swift in Sources */,
 				D20AA67E21B8E9EF001082D4 /* BaseView.swift in Sources */,
+				E271337421BAA9C400BAD253 /* Storyboard.swift in Sources */,
+				E271337821BAA9C400BAD253 /* UIViewController+Storyboard.swift in Sources */,
 				D20AA69D21BA75CC001082D4 /* AddTaskRequest.swift in Sources */,
 				D20AA67F21B8E9EF001082D4 /* BaseViewModel.swift in Sources */,
 				D20AA5F821B8D640001082D4 /* AppDelegate.swift in Sources */,
+				E271337521BAA9C400BAD253 /* Codable+Helpers.swift in Sources */,
 				D20AA69621BA75CC001082D4 /* ExternalProtocols.swift in Sources */,
 				D20AA69721BA75CC001082D4 /* CoreDataManager.swift in Sources */,
 				D20AA65A21B8E996001082D4 /* AddEventInteractor.swift in Sources */,
-				D20AA62921B8E8B7001082D4 /* UI+Helpers.swift in Sources */,
 				D20AA69C21BA75CC001082D4 /* LoginResponse.swift in Sources */,
 				D20AA69821BA75CC001082D4 /* UserDefaults.swift in Sources */,
 				D20AA64021B8E90F001082D4 /* Token.swift in Sources */,
