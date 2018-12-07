@@ -52,6 +52,7 @@
 		E271337621BAA9C400BAD253 /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337121BAA9C400BAD253 /* Date+Helpers.swift */; };
 		E271337721BAA9C400BAD253 /* UI+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337221BAA9C400BAD253 /* UI+Helpers.swift */; };
 		E271337821BAA9C400BAD253 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337321BAA9C400BAD253 /* UIViewController+Storyboard.swift */; };
+		E271337E21BAB1DB00BAD253 /* Strings+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337D21BAB1DB00BAD253 /* Strings+Keys.swift */; };
 		EFDD2AF0A03595D011B2A1C2 /* Pods_EvenTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B64D97EBE3E6D07C9FFEC82 /* Pods_EvenTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +130,7 @@
 		E271337121BAA9C400BAD253 /* Date+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
 		E271337221BAA9C400BAD253 /* UI+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI+Helpers.swift"; sourceTree = "<group>"; };
 		E271337321BAA9C400BAD253 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
+		E271337D21BAB1DB00BAD253 /* Strings+Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Keys.swift"; sourceTree = "<group>"; };
 		F0091FA47E227BEDE26713BC /* Pods-EvenTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTaskUITests/Pods-EvenTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0C7B33130A2A6D474B6353 /* Pods-EvenTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTask/Pods-EvenTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,6 +250,7 @@
 				E271336F21BAA9C400BAD253 /* Storyboard.swift */,
 				E271337221BAA9C400BAD253 /* UI+Helpers.swift */,
 				E271337321BAA9C400BAD253 /* UIViewController+Storyboard.swift */,
+				E271337D21BAB1DB00BAD253 /* Strings+Keys.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -306,8 +309,6 @@
 			children = (
 				D20AA64721B8E986001082D4 /* Authentication.storyboard */,
 				D20AA64821B8E986001082D4 /* Login */,
-				D20AA64C21B8E987001082D4 /* Register */,
-				D20AA64D21B8E987001082D4 /* Reset Password */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -329,20 +330,6 @@
 				D20AA64B21B8E986001082D4 /* LoginInteractor.swift */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		D20AA64C21B8E987001082D4 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
-		D20AA64D21B8E987001082D4 /* Reset Password */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Reset Password";
 			sourceTree = "<group>";
 		};
 		D20AA65221B8E995001082D4 /* Events List */ = {
@@ -704,6 +691,7 @@
 				D20AA69E21BA75CC001082D4 /* AlamofireManager.swift in Sources */,
 				D20AA67E21B8E9EF001082D4 /* BaseView.swift in Sources */,
 				E271337421BAA9C400BAD253 /* Storyboard.swift in Sources */,
+				E271337E21BAB1DB00BAD253 /* Strings+Keys.swift in Sources */,
 				E271337821BAA9C400BAD253 /* UIViewController+Storyboard.swift in Sources */,
 				D20AA69D21BA75CC001082D4 /* AddTaskRequest.swift in Sources */,
 				D20AA67F21B8E9EF001082D4 /* BaseViewModel.swift in Sources */,
