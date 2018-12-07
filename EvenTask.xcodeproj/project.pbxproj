@@ -48,9 +48,8 @@
 		D20AA69E21BA75CC001082D4 /* AlamofireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69321BA75CC001082D4 /* AlamofireManager.swift */; };
 		D20AA69F21BA75CC001082D4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69521BA75CC001082D4 /* Router.swift */; };
 		D2CF04F921BAC15F00622D41 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF04F821BAC15F00622D41 /* Storyboard.swift */; };
-		D2CF04FB21BAC17000622D41 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF04FA21BAC17000622D41 /* UIViewController+Storyboard.swift */; };
-		D2CF04FC21BAC18800622D41 /* Strings+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337D21BAB1DB00BAD253 /* Strings+Keys.swift */; };
-		D2CF04FE21BAC19200622D41 /* Strings+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF04FD21BAC19200622D41 /* Strings+Keys.swift */; };
+		D2CF04FE21BAC19200622D41 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF04FD21BAC19200622D41 /* Fields.swift */; };
+		D2CF050121BACBF500622D41 /* CachingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF050021BACBF500622D41 /* CachingKeys.swift */; };
 		E271337521BAA9C400BAD253 /* Codable+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337021BAA9C400BAD253 /* Codable+Helpers.swift */; };
 		E271337621BAA9C400BAD253 /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337121BAA9C400BAD253 /* Date+Helpers.swift */; };
 		EFDD2AF0A03595D011B2A1C2 /* Pods_EvenTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B64D97EBE3E6D07C9FFEC82 /* Pods_EvenTask.framework */; };
@@ -124,13 +123,12 @@
 		D20AA69221BA75CC001082D4 /* AddTaskRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskRequest.swift; sourceTree = "<group>"; };
 		D20AA69321BA75CC001082D4 /* AlamofireManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireManager.swift; sourceTree = "<group>"; };
 		D20AA69521BA75CC001082D4 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		D2CF04F821BAC15F00622D41 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Storyboard.swift; path = "UI Helpers/Storyboard.swift"; sourceTree = "<group>"; };
-		D2CF04FA21BAC17000622D41 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Storyboard.swift"; path = "UI Helpers/UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
-		D2CF04FD21BAC19200622D41 /* Strings+Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Keys.swift"; sourceTree = "<group>"; };
+		D2CF04F821BAC15F00622D41 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		D2CF04FD21BAC19200622D41 /* Fields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
+		D2CF050021BACBF500622D41 /* CachingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingKeys.swift; sourceTree = "<group>"; };
 		E0DF6D54F0A44988E90CB142 /* Pods-EvenTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTaskTests/Pods-EvenTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		E271337021BAA9C400BAD253 /* Codable+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Helpers.swift"; sourceTree = "<group>"; };
 		E271337121BAA9C400BAD253 /* Date+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
-		E271337D21BAB1DB00BAD253 /* Strings+Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Keys.swift"; sourceTree = "<group>"; };
 		F0091FA47E227BEDE26713BC /* Pods-EvenTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTaskUITests/Pods-EvenTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0C7B33130A2A6D474B6353 /* Pods-EvenTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTask/Pods-EvenTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -245,13 +243,10 @@
 		D20AA62521B8E8A5001082D4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA6A021BAAC85001082D4 /* UI Helpers */,
+				D2CF050221BACC1100622D41 /* UI */,
+				D2CF04FF21BACBDC00622D41 /* Messages */,
 				E271337021BAA9C400BAD253 /* Codable+Helpers.swift */,
 				E271337121BAA9C400BAD253 /* Date+Helpers.swift */,
-				D2CF04FD21BAC19200622D41 /* Strings+Keys.swift */,
-				D2CF04F821BAC15F00622D41 /* Storyboard.swift */,
-				D2CF04FA21BAC17000622D41 /* UIViewController+Storyboard.swift */,
-				E271337D21BAB1DB00BAD253 /* Strings+Keys.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -437,11 +432,21 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
-		D20AA6A021BAAC85001082D4 /* UI Helpers */ = {
+		D2CF04FF21BACBDC00622D41 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
+				D2CF04FD21BAC19200622D41 /* Fields.swift */,
+				D2CF050021BACBF500622D41 /* CachingKeys.swift */,
 			);
-			path = "UI Helpers";
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		D2CF050221BACC1100622D41 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF04F821BAC15F00622D41 /* Storyboard.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -676,7 +681,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2CF04FC21BAC18800622D41 /* Strings+Keys.swift in Sources */,
 				D20AA65121B8E987001082D4 /* LoginInteractor.swift in Sources */,
 				E271337621BAA9C400BAD253 /* Date+Helpers.swift in Sources */,
 				D20AA63421B8E8F4001082D4 /* NotEmpty.swift in Sources */,
@@ -690,7 +694,6 @@
 				D20AA69F21BA75CC001082D4 /* Router.swift in Sources */,
 				D20AA64121B8E90F001082D4 /* User.swift in Sources */,
 				D20AA69921BA75CC001082D4 /* AppleLocationManager.swift in Sources */,
-				D2CF04FB21BAC17000622D41 /* UIViewController+Storyboard.swift in Sources */,
 				D20AA68321B9D71C001082D4 /* Errors.swift in Sources */,
 				D20AA65B21B8E996001082D4 /* AddEventView.swift in Sources */,
 				D20AA64F21B8E987001082D4 /* LoginViewModel.swift in Sources */,
@@ -699,10 +702,11 @@
 				D20AA63E21B8E90F001082D4 /* Dependency.swift in Sources */,
 				D20AA63321B8E8F4001082D4 /* BaseValidator.swift in Sources */,
 				D20AA69E21BA75CC001082D4 /* AlamofireManager.swift in Sources */,
-				D2CF04FE21BAC19200622D41 /* Strings+Keys.swift in Sources */,
+				D2CF04FE21BAC19200622D41 /* Fields.swift in Sources */,
 				D20AA67E21B8E9EF001082D4 /* BaseView.swift in Sources */,
 				D20AA69D21BA75CC001082D4 /* AddTaskRequest.swift in Sources */,
 				D20AA67F21B8E9EF001082D4 /* BaseViewModel.swift in Sources */,
+				D2CF050121BACBF500622D41 /* CachingKeys.swift in Sources */,
 				D20AA5F821B8D640001082D4 /* AppDelegate.swift in Sources */,
 				E271337521BAA9C400BAD253 /* Codable+Helpers.swift in Sources */,
 				D20AA69621BA75CC001082D4 /* ExternalProtocols.swift in Sources */,

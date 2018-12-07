@@ -20,8 +20,8 @@ class LoginInteractor: BaseInteractor {
     }
     
     override func validate() throws {
-        try NotEmpty(value: email, key: .emailFieldKey).orThrow()
-        try NotEmpty(value: password, key: .passwordFieldKey).orThrow()
+        try NotEmpty(value: email, key: .emailField).orThrow()
+        try NotEmpty(value: password, key: .passwordField).orThrow()
         try IsValidPassword(value: password).orThrow()
         try IsValidEmail(value: email).orThrow()
     }

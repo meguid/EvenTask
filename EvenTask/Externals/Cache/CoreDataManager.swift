@@ -8,11 +8,11 @@
 import Foundation
 
 class CoreDataManager: CacheProtocol {
-    func getObject<T>(_ object: T, key: String) -> T? {
+    func getObject<T>(_ object: T, key: CachingKey) -> T? {
         return object
     }
     
-    func saveObject<T>(_ object: T, key: String) {
+    func saveObject<T>(_ object: T, key: CachingKey) {
         
     }
     
