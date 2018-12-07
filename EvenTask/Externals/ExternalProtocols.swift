@@ -32,6 +32,6 @@ protocol RouterProtocol {
     func stopActivityIndicator()
     func dismiss()
     func pop()
-    func segue(identifier: String)
+    func segue(storyboard: Storyboard)
     func alert(title: String, message: String, actions: [(title: String, style: UIAlertAction.Style)])
 }
