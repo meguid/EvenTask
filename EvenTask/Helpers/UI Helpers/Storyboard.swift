@@ -18,10 +18,10 @@ extension UIStoryboard {
 public enum Storyboard: String {
     case Home
     
-    public func viewController<VC: UIViewController>(_ viewController: VC.Type, bundle: Bundle? = nil) -> VC {
+    public func viewController<VC: UIViewController>(_ viewIdentifier: String, bundle: Bundle? = nil) -> VC {
         guard let vc = UIStoryboard(name: self.rawValue, bundle: bundle)
-            .instantiateViewController(withIdentifier: VC.storyboardIdentifier) as? VC else {
-                fatalError("Failed To Instantiate ViewController: \(VC.storyboardIdentifier) didn't match \(self.rawValue)!")
+            .instantiateViewController(withIdentifier: viewIdentifier) as? VC else {
+                fatalError("Failed To Instantiate ViewController: \(viewIdentifier) didn't match \(self.rawValue)!")
         }
         return vc
     }

@@ -50,7 +50,6 @@
 		E271337421BAA9C400BAD253 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271336F21BAA9C400BAD253 /* Storyboard.swift */; };
 		E271337521BAA9C400BAD253 /* Codable+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337021BAA9C400BAD253 /* Codable+Helpers.swift */; };
 		E271337621BAA9C400BAD253 /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337121BAA9C400BAD253 /* Date+Helpers.swift */; };
-		E271337721BAA9C400BAD253 /* UI+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337221BAA9C400BAD253 /* UI+Helpers.swift */; };
 		E271337821BAA9C400BAD253 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271337321BAA9C400BAD253 /* UIViewController+Storyboard.swift */; };
 		EFDD2AF0A03595D011B2A1C2 /* Pods_EvenTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B64D97EBE3E6D07C9FFEC82 /* Pods_EvenTask.framework */; };
 /* End PBXBuildFile section */
@@ -127,7 +126,6 @@
 		E271336F21BAA9C400BAD253 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		E271337021BAA9C400BAD253 /* Codable+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Helpers.swift"; sourceTree = "<group>"; };
 		E271337121BAA9C400BAD253 /* Date+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
-		E271337221BAA9C400BAD253 /* UI+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI+Helpers.swift"; sourceTree = "<group>"; };
 		E271337321BAA9C400BAD253 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
 		F0091FA47E227BEDE26713BC /* Pods-EvenTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTaskUITests/Pods-EvenTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0C7B33130A2A6D474B6353 /* Pods-EvenTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTask/Pods-EvenTask.debug.xcconfig"; sourceTree = "<group>"; };
@@ -243,11 +241,9 @@
 		D20AA62521B8E8A5001082D4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				D20AA6A021BAAC85001082D4 /* UI Helpers */,
 				E271337021BAA9C400BAD253 /* Codable+Helpers.swift */,
 				E271337121BAA9C400BAD253 /* Date+Helpers.swift */,
-				E271336F21BAA9C400BAD253 /* Storyboard.swift */,
-				E271337221BAA9C400BAD253 /* UI+Helpers.swift */,
-				E271337321BAA9C400BAD253 /* UIViewController+Storyboard.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -447,6 +443,15 @@
 				D20AA69521BA75CC001082D4 /* Router.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		D20AA6A021BAAC85001082D4 /* UI Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E271337321BAA9C400BAD253 /* UIViewController+Storyboard.swift */,
+				E271336F21BAA9C400BAD253 /* Storyboard.swift */,
+			);
+			path = "UI Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -697,7 +702,6 @@
 				D20AA68321B9D71C001082D4 /* Errors.swift in Sources */,
 				D20AA65B21B8E996001082D4 /* AddEventView.swift in Sources */,
 				D20AA64F21B8E987001082D4 /* LoginViewModel.swift in Sources */,
-				E271337721BAA9C400BAD253 /* UI+Helpers.swift in Sources */,
 				D20AA69A21BA75CC001082D4 /* GoogleLocationManager.swift in Sources */,
 				D20AA63E21B8E90F001082D4 /* Dependency.swift in Sources */,
 				D20AA63321B8E8F4001082D4 /* BaseValidator.swift in Sources */,
