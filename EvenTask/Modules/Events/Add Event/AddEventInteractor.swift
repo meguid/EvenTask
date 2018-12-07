@@ -26,17 +26,17 @@ class AddEventInteractor: BaseInteractor {
     }
     
     override func extract() {
-        token = cache.getObject(Token(), key: "token")?.token
-        userId = cache.getObject(User(), key: "user")?.id
+        token = cache.getObject(Token(), key: .tokenCacheKey)?.token
+        userId = cache.getObject(User(), key: .userCacheKey)?.id
     }
     
     override func validate() throws {
-        try NotEmpty(value: title, key: "title").orThrow()
-        try NotOptional(value: description, key: "description").orThrow()
-        try NotEmpty(value: priority, key: "priority").orThrow()
-        try NotEmpty(value: permanent, key: "permanent").orThrow()
-        try NotEmpty(value: token, key: "token").orThrow()
-        try NotEmpty(value: userId, key: "userId").orThrow()
+        try NotEmpty(value: title, key: .eventTitleKey).orThrow()
+        try NotOptional(value: description, key: .eventDescriptionKey).orThrow()
+        try NotEmpty(value: priority, key: .eventPriorityKey).orThrow()
+        try NotEmpty(value: permanent, key: .eventIsPermanentKey).orThrow()
+        try NotEmpty(value: token, key: .tokenCacheKey).orThrow()
+        try NotEmpty(value: userId, key: .eventUserIDKey).orThrow()
     }
     
     override func process<T: Codable>(_ model: T) -> Promise<T> {
