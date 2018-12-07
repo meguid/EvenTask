@@ -8,27 +8,22 @@
 
 import UIKit
 
-extension UIStoryboard {
-    class func instantiateInitialViewController(with id: Storyboard) -> UIViewController {
-        let story = UIStoryboard(name: id.rawValue, bundle: nil)
-        return story.instantiateInitialViewController()!
+public enum Storyboard {
+    case events(view: ViewIdentifier)
+
+    public func viewController(bundle: Bundle? = nil) -> UIViewController {
+        return UIStoryboard(name: self.storyboard().storyboardId , bundle: bundle)
+            .instantiateViewController(withIdentifier: self.storyboard().storyboardId)
+    }
+    
+    public func storyboard() -> (storyboardId: String, viewId: String) {
+        switch self {
+        case .events(let view):
+            return ("Events", view.rawValue)
+        }
     }
 }
 
-public enum Storyboard: String {
-    case Home
-    
-    public func viewController<VC: UIViewController>(_ viewIdentifier: String, bundle: Bundle? = nil) -> VC {
-        guard let vc = UIStoryboard(name: self.rawValue, bundle: bundle)
-            .instantiateViewController(withIdentifier: viewIdentifier) as? VC else {
-                fatalError("Failed To Instantiate ViewController: \(viewIdentifier) didn't match \(self.rawValue)!")
-        }
-        return vc
-    }
-    
-    public func initialViewController(_ bundle: Bundle? = nil) -> UIViewController {
-        let storyboard = UIStoryboard(name: self.rawValue, bundle: bundle)
-        guard let vc = storyboard.instantiateInitialViewController() else { fatalError("\(self.rawValue) doesn't contain a Initial View Controller!")}
-        return vc
-    }
+public enum ViewIdentifier: String {
+    case eventsList = "EventsList"
 }

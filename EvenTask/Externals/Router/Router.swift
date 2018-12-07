@@ -27,8 +27,8 @@ class Router: RouterProtocol {
         _ = presentedView.navigationController?.popViewController(animated: true)
     }
     
-    func segue(identifier: String) {
-        presentedView.performSegue(withIdentifier: identifier, sender: presentedView)
+    func segue(storyboard: Storyboard) {
+        presentedView.navigationController?.pushViewController(storyboard.viewController(), animated: true)
     }
     
     func alert(title: String, message: String, actions: [(title: String, style: UIAlertAction.Style)]) {

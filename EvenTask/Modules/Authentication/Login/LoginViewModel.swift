@@ -17,7 +17,7 @@ class LoginViewModel: BaseViewModel {
         LoginInteractor(email.value, password.value, base: baseInteractor).execute(LoginResponse()).then { (response) in
             self.cache.saveObject(response.user, key: .userCacheKey)
             self.cache.saveObject(response.token, key: .tokenCacheKey)
-            self.router.segue(identifier: Storyboard.Home.rawValue)
+            self.router.segue(storyboard: .events(view: .eventsList))
         }.catch { (error) in
             self.router.alert(title: "Warning", message: error.localizedDescription, actions: [("ok", .default)])
         }
