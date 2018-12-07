@@ -36,20 +36,20 @@
 		D20AA65B21B8E996001082D4 /* AddEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA65621B8E996001082D4 /* AddEventView.swift */; };
 		D20AA65C21B8E996001082D4 /* AddEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA65721B8E996001082D4 /* AddEventViewModel.swift */; };
 		D20AA65F21B8E99F001082D4 /* Planning.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20AA65E21B8E99F001082D4 /* Planning.storyboard */; };
-		D20AA67121B8E9AD001082D4 /* AppleLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA66121B8E9AC001082D4 /* AppleLocationManager.swift */; };
-		D20AA67221B8E9AD001082D4 /* GoogleLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA66221B8E9AC001082D4 /* GoogleLocationManager.swift */; };
-		D20AA67321B8E9AD001082D4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA66421B8E9AC001082D4 /* CoreDataManager.swift */; };
-		D20AA67421B8E9AD001082D4 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA66521B8E9AC001082D4 /* UserDefaults.swift */; };
-		D20AA67521B8E9AD001082D4 /* MoyaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA66721B8E9AC001082D4 /* MoyaManager.swift */; };
-		D20AA67621B8E9AD001082D4 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA66A21B8E9AC001082D4 /* LoginResponse.swift */; };
-		D20AA67721B8E9AD001082D4 /* AddTaskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA66C21B8E9AC001082D4 /* AddTaskRequest.swift */; };
-		D20AA67821B8E9AD001082D4 /* AlamofireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA66D21B8E9AC001082D4 /* AlamofireManager.swift */; };
-		D20AA67921B8E9AD001082D4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA66F21B8E9AC001082D4 /* Router.swift */; };
-		D20AA67A21B8E9AD001082D4 /* ExternalProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA67021B8E9AC001082D4 /* ExternalProtocols.swift */; };
 		D20AA67E21B8E9EF001082D4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA67B21B8E9EE001082D4 /* BaseView.swift */; };
 		D20AA67F21B8E9EF001082D4 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA67C21B8E9EF001082D4 /* BaseViewModel.swift */; };
 		D20AA68021B8E9EF001082D4 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA67D21B8E9EF001082D4 /* BaseInteractor.swift */; };
 		D20AA68321B9D71C001082D4 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68221B9D71C001082D4 /* Errors.swift */; };
+		D20AA69621BA75CC001082D4 /* ExternalProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68521BA75CC001082D4 /* ExternalProtocols.swift */; };
+		D20AA69721BA75CC001082D4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68721BA75CC001082D4 /* CoreDataManager.swift */; };
+		D20AA69821BA75CC001082D4 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68821BA75CC001082D4 /* UserDefaults.swift */; };
+		D20AA69921BA75CC001082D4 /* AppleLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68A21BA75CC001082D4 /* AppleLocationManager.swift */; };
+		D20AA69A21BA75CC001082D4 /* GoogleLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68B21BA75CC001082D4 /* GoogleLocationManager.swift */; };
+		D20AA69B21BA75CC001082D4 /* MoyaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68D21BA75CC001082D4 /* MoyaManager.swift */; };
+		D20AA69C21BA75CC001082D4 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69021BA75CC001082D4 /* LoginResponse.swift */; };
+		D20AA69D21BA75CC001082D4 /* AddTaskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69221BA75CC001082D4 /* AddTaskRequest.swift */; };
+		D20AA69E21BA75CC001082D4 /* AlamofireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69321BA75CC001082D4 /* AlamofireManager.swift */; };
+		D20AA69F21BA75CC001082D4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69521BA75CC001082D4 /* Router.swift */; };
 		EFDD2AF0A03595D011B2A1C2 /* Pods_EvenTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B64D97EBE3E6D07C9FFEC82 /* Pods_EvenTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -110,20 +110,20 @@
 		D20AA65621B8E996001082D4 /* AddEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventView.swift; sourceTree = "<group>"; };
 		D20AA65721B8E996001082D4 /* AddEventViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewModel.swift; sourceTree = "<group>"; };
 		D20AA65E21B8E99F001082D4 /* Planning.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Planning.storyboard; sourceTree = "<group>"; };
-		D20AA66121B8E9AC001082D4 /* AppleLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleLocationManager.swift; sourceTree = "<group>"; };
-		D20AA66221B8E9AC001082D4 /* GoogleLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLocationManager.swift; sourceTree = "<group>"; };
-		D20AA66421B8E9AC001082D4 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		D20AA66521B8E9AC001082D4 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
-		D20AA66721B8E9AC001082D4 /* MoyaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaManager.swift; sourceTree = "<group>"; };
-		D20AA66A21B8E9AC001082D4 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
-		D20AA66C21B8E9AC001082D4 /* AddTaskRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskRequest.swift; sourceTree = "<group>"; };
-		D20AA66D21B8E9AC001082D4 /* AlamofireManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireManager.swift; sourceTree = "<group>"; };
-		D20AA66F21B8E9AC001082D4 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		D20AA67021B8E9AC001082D4 /* ExternalProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExternalProtocols.swift; path = ../../../Archtrials/Archtrials/Externals/ExternalProtocols.swift; sourceTree = "<group>"; };
 		D20AA67B21B8E9EE001082D4 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		D20AA67C21B8E9EF001082D4 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		D20AA67D21B8E9EF001082D4 /* BaseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
 		D20AA68221B9D71C001082D4 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		D20AA68521BA75CC001082D4 /* ExternalProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalProtocols.swift; sourceTree = "<group>"; };
+		D20AA68721BA75CC001082D4 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D20AA68821BA75CC001082D4 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		D20AA68A21BA75CC001082D4 /* AppleLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleLocationManager.swift; sourceTree = "<group>"; };
+		D20AA68B21BA75CC001082D4 /* GoogleLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLocationManager.swift; sourceTree = "<group>"; };
+		D20AA68D21BA75CC001082D4 /* MoyaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaManager.swift; sourceTree = "<group>"; };
+		D20AA69021BA75CC001082D4 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		D20AA69221BA75CC001082D4 /* AddTaskRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskRequest.swift; sourceTree = "<group>"; };
+		D20AA69321BA75CC001082D4 /* AlamofireManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireManager.swift; sourceTree = "<group>"; };
+		D20AA69521BA75CC001082D4 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		E0DF6D54F0A44988E90CB142 /* Pods-EvenTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTaskTests/Pods-EvenTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		F0091FA47E227BEDE26713BC /* Pods-EvenTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTaskUITests/Pods-EvenTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0C7B33130A2A6D474B6353 /* Pods-EvenTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenTask/Pods-EvenTask.debug.xcconfig"; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 				D20AA63721B8E8FA001082D4 /* Models */,
 				D20AA62C21B8E8E4001082D4 /* Validators */,
 				D20AA64221B8E917001082D4 /* Modules */,
-				D20AA64621B8E95B001082D4 /* Externals */,
+				D20AA68421BA75CC001082D4 /* Externals */,
 				D20AA5F721B8D640001082D4 /* AppDelegate.swift */,
 				D20AA5FE21B8D642001082D4 /* Assets.xcassets */,
 				D20AA60021B8D642001082D4 /* LaunchScreen.storyboard */,
@@ -315,18 +315,6 @@
 			path = Planning;
 			sourceTree = "<group>";
 		};
-		D20AA64621B8E95B001082D4 /* Externals */ = {
-			isa = PBXGroup;
-			children = (
-				D20AA67021B8E9AC001082D4 /* ExternalProtocols.swift */,
-				D20AA66E21B8E9AC001082D4 /* Router */,
-				D20AA66021B8E9AC001082D4 /* Location */,
-				D20AA66321B8E9AC001082D4 /* Cache */,
-				D20AA66621B8E9AC001082D4 /* Network */,
-			);
-			path = Externals;
-			sourceTree = "<group>";
-		};
 		D20AA64821B8E986001082D4 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,69 +370,77 @@
 			path = "Week Plan";
 			sourceTree = "<group>";
 		};
-		D20AA66021B8E9AC001082D4 /* Location */ = {
+		D20AA68421BA75CC001082D4 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA66121B8E9AC001082D4 /* AppleLocationManager.swift */,
-				D20AA66221B8E9AC001082D4 /* GoogleLocationManager.swift */,
+				D20AA68521BA75CC001082D4 /* ExternalProtocols.swift */,
+				D20AA68621BA75CC001082D4 /* Cache */,
+				D20AA68921BA75CC001082D4 /* Location */,
+				D20AA68C21BA75CC001082D4 /* Network */,
+				D20AA69421BA75CC001082D4 /* Router */,
 			);
-			name = Location;
-			path = ../../../Archtrials/Archtrials/Externals/Location;
+			path = Externals;
 			sourceTree = "<group>";
 		};
-		D20AA66321B8E9AC001082D4 /* Cache */ = {
+		D20AA68621BA75CC001082D4 /* Cache */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA66421B8E9AC001082D4 /* CoreDataManager.swift */,
-				D20AA66521B8E9AC001082D4 /* UserDefaults.swift */,
+				D20AA68721BA75CC001082D4 /* CoreDataManager.swift */,
+				D20AA68821BA75CC001082D4 /* UserDefaults.swift */,
 			);
-			name = Cache;
-			path = ../../../Archtrials/Archtrials/Externals/Cache;
+			path = Cache;
 			sourceTree = "<group>";
 		};
-		D20AA66621B8E9AC001082D4 /* Network */ = {
+		D20AA68921BA75CC001082D4 /* Location */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA66821B8E9AC001082D4 /* Models */,
-				D20AA66721B8E9AC001082D4 /* MoyaManager.swift */,
-				D20AA66D21B8E9AC001082D4 /* AlamofireManager.swift */,
+				D20AA68A21BA75CC001082D4 /* AppleLocationManager.swift */,
+				D20AA68B21BA75CC001082D4 /* GoogleLocationManager.swift */,
 			);
-			name = Network;
-			path = ../../../Archtrials/Archtrials/Externals/Network;
+			path = Location;
 			sourceTree = "<group>";
 		};
-		D20AA66821B8E9AC001082D4 /* Models */ = {
+		D20AA68C21BA75CC001082D4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA66921B8E9AC001082D4 /* Responses */,
-				D20AA66B21B8E9AC001082D4 /* Requests */,
+				D20AA68D21BA75CC001082D4 /* MoyaManager.swift */,
+				D20AA68E21BA75CC001082D4 /* Models */,
+				D20AA69321BA75CC001082D4 /* AlamofireManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D20AA68E21BA75CC001082D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D20AA68F21BA75CC001082D4 /* Responses */,
+				D20AA69121BA75CC001082D4 /* Requests */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		D20AA66921B8E9AC001082D4 /* Responses */ = {
+		D20AA68F21BA75CC001082D4 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA66A21B8E9AC001082D4 /* LoginResponse.swift */,
+				D20AA69021BA75CC001082D4 /* LoginResponse.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
 		};
-		D20AA66B21B8E9AC001082D4 /* Requests */ = {
+		D20AA69121BA75CC001082D4 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA66C21B8E9AC001082D4 /* AddTaskRequest.swift */,
+				D20AA69221BA75CC001082D4 /* AddTaskRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
 		};
-		D20AA66E21B8E9AC001082D4 /* Router */ = {
+		D20AA69421BA75CC001082D4 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA66F21B8E9AC001082D4 /* Router.swift */,
+				D20AA69521BA75CC001082D4 /* Router.swift */,
 			);
-			name = Router;
-			path = ../../../Archtrials/Archtrials/Externals/Router;
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -683,36 +679,36 @@
 				D20AA63421B8E8F4001082D4 /* NotEmpty.swift in Sources */,
 				D20AA62A21B8E8B7001082D4 /* Codable+Helpers.swift in Sources */,
 				D20AA63D21B8E90F001082D4 /* Task.swift in Sources */,
-				D20AA67A21B8E9AD001082D4 /* ExternalProtocols.swift in Sources */,
-				D20AA67121B8E9AD001082D4 /* AppleLocationManager.swift in Sources */,
 				D20AA63221B8E8F4001082D4 /* IsValidEmail.swift in Sources */,
-				D20AA67621B8E9AD001082D4 /* LoginResponse.swift in Sources */,
+				D20AA69B21BA75CC001082D4 /* MoyaManager.swift in Sources */,
 				D20AA68021B8E9EF001082D4 /* BaseInteractor.swift in Sources */,
 				D20AA65C21B8E996001082D4 /* AddEventViewModel.swift in Sources */,
 				D20AA63F21B8E90F001082D4 /* Event.swift in Sources */,
-				D20AA67321B8E9AD001082D4 /* CoreDataManager.swift in Sources */,
 				D20AA63621B8E8F4001082D4 /* NotOptional.swift in Sources */,
-				D20AA67521B8E9AD001082D4 /* MoyaManager.swift in Sources */,
-				D20AA67821B8E9AD001082D4 /* AlamofireManager.swift in Sources */,
+				D20AA69F21BA75CC001082D4 /* Router.swift in Sources */,
 				D20AA64121B8E90F001082D4 /* User.swift in Sources */,
 				D20AA62B21B8E8B7001082D4 /* Date+Helpers.swift in Sources */,
+				D20AA69921BA75CC001082D4 /* AppleLocationManager.swift in Sources */,
 				D20AA68321B9D71C001082D4 /* Errors.swift in Sources */,
 				D20AA65B21B8E996001082D4 /* AddEventView.swift in Sources */,
 				D20AA64F21B8E987001082D4 /* LoginViewModel.swift in Sources */,
+				D20AA69A21BA75CC001082D4 /* GoogleLocationManager.swift in Sources */,
 				D20AA63E21B8E90F001082D4 /* Dependency.swift in Sources */,
 				D20AA63321B8E8F4001082D4 /* BaseValidator.swift in Sources */,
+				D20AA69E21BA75CC001082D4 /* AlamofireManager.swift in Sources */,
 				D20AA67E21B8E9EF001082D4 /* BaseView.swift in Sources */,
+				D20AA69D21BA75CC001082D4 /* AddTaskRequest.swift in Sources */,
 				D20AA67F21B8E9EF001082D4 /* BaseViewModel.swift in Sources */,
 				D20AA5F821B8D640001082D4 /* AppDelegate.swift in Sources */,
+				D20AA69621BA75CC001082D4 /* ExternalProtocols.swift in Sources */,
+				D20AA69721BA75CC001082D4 /* CoreDataManager.swift in Sources */,
 				D20AA65A21B8E996001082D4 /* AddEventInteractor.swift in Sources */,
-				D20AA67921B8E9AD001082D4 /* Router.swift in Sources */,
 				D20AA62921B8E8B7001082D4 /* UI+Helpers.swift in Sources */,
+				D20AA69C21BA75CC001082D4 /* LoginResponse.swift in Sources */,
+				D20AA69821BA75CC001082D4 /* UserDefaults.swift in Sources */,
 				D20AA64021B8E90F001082D4 /* Token.swift in Sources */,
-				D20AA67721B8E9AD001082D4 /* AddTaskRequest.swift in Sources */,
-				D20AA67421B8E9AD001082D4 /* UserDefaults.swift in Sources */,
 				D20AA65021B8E987001082D4 /* LoginView.swift in Sources */,
 				D20AA63521B8E8F4001082D4 /* IsValidPassword.swift in Sources */,
-				D20AA67221B8E9AD001082D4 /* GoogleLocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
