@@ -12,7 +12,6 @@
 		D20AA5F821B8D640001082D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA5F721B8D640001082D4 /* AppDelegate.swift */; };
 		D20AA5FF21B8D642001082D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20AA5FE21B8D642001082D4 /* Assets.xcassets */; };
 		D20AA60221B8D642001082D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20AA60021B8D642001082D4 /* LaunchScreen.storyboard */; };
-		D20AA60D21B8D642001082D4 /* EvenTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA60C21B8D642001082D4 /* EvenTaskTests.swift */; };
 		D20AA61821B8D642001082D4 /* EvenTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA61721B8D642001082D4 /* EvenTaskUITests.swift */; };
 		D20AA63221B8E8F4001082D4 /* IsValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA62D21B8E8F3001082D4 /* IsValidEmail.swift */; };
 		D20AA63321B8E8F4001082D4 /* BaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA62E21B8E8F3001082D4 /* BaseValidator.swift */; };
@@ -47,6 +46,13 @@
 		D20AA69D21BA75CC001082D4 /* AddTaskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69221BA75CC001082D4 /* AddTaskRequest.swift */; };
 		D20AA69E21BA75CC001082D4 /* AlamofireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69321BA75CC001082D4 /* AlamofireManager.swift */; };
 		D20AA69F21BA75CC001082D4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA69521BA75CC001082D4 /* Router.swift */; };
+		D25BBE3A21C26E1A008AC441 /* LocationMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BBE3921C26E1A008AC441 /* LocationMock.swift */; };
+		D25BBE3C21C26F0E008AC441 /* CacheMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BBE3B21C26F0E008AC441 /* CacheMock.swift */; };
+		D25BBE3E21C27090008AC441 /* NetworkMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BBE3D21C27090008AC441 /* NetworkMock.swift */; };
+		D25BBE4021C27254008AC441 /* RouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BBE3F21C27254008AC441 /* RouterMock.swift */; };
+		D25BBE4721C2746F008AC441 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BBE4621C2746F008AC441 /* LoginTests.swift */; };
+		D25BBE4921C2758E008AC441 /* BaseModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BBE4821C2758E008AC441 /* BaseModuleTests.swift */; };
+		D25BBE4B21C28804008AC441 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BBE4A21C28804008AC441 /* NetworkError.swift */; };
 		D2CF04F921BAC15F00622D41 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF04F821BAC15F00622D41 /* Storyboard.swift */; };
 		D2CF04FE21BAC19200622D41 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF04FD21BAC19200622D41 /* Fields.swift */; };
 		D2CF050121BACBF500622D41 /* CachingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF050021BACBF500622D41 /* CachingKeys.swift */; };
@@ -85,7 +91,6 @@
 		D20AA60121B8D642001082D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D20AA60321B8D642001082D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D20AA60821B8D642001082D4 /* EvenTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvenTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D20AA60C21B8D642001082D4 /* EvenTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenTaskTests.swift; sourceTree = "<group>"; };
 		D20AA60E21B8D642001082D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D20AA61321B8D642001082D4 /* EvenTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvenTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20AA61721B8D642001082D4 /* EvenTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenTaskUITests.swift; sourceTree = "<group>"; };
@@ -123,6 +128,13 @@
 		D20AA69221BA75CC001082D4 /* AddTaskRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskRequest.swift; sourceTree = "<group>"; };
 		D20AA69321BA75CC001082D4 /* AlamofireManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireManager.swift; sourceTree = "<group>"; };
 		D20AA69521BA75CC001082D4 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D25BBE3921C26E1A008AC441 /* LocationMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMock.swift; sourceTree = "<group>"; };
+		D25BBE3B21C26F0E008AC441 /* CacheMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheMock.swift; sourceTree = "<group>"; };
+		D25BBE3D21C27090008AC441 /* NetworkMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMock.swift; sourceTree = "<group>"; };
+		D25BBE3F21C27254008AC441 /* RouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterMock.swift; sourceTree = "<group>"; };
+		D25BBE4621C2746F008AC441 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		D25BBE4821C2758E008AC441 /* BaseModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModuleTests.swift; sourceTree = "<group>"; };
+		D25BBE4A21C28804008AC441 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		D2CF04F821BAC15F00622D41 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		D2CF04FD21BAC19200622D41 /* Fields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
 		D2CF050021BACBF500622D41 /* CachingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingKeys.swift; sourceTree = "<group>"; };
@@ -225,7 +237,10 @@
 		D20AA60B21B8D642001082D4 /* EvenTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA60C21B8D642001082D4 /* EvenTaskTests.swift */,
+				D25BBE4321C273D7008AC441 /* Helpers */,
+				D25BBE4121C273B4008AC441 /* Validators */,
+				D25BBE4221C273C9008AC441 /* Modules */,
+				D25BBE3821C26DBF008AC441 /* Externals Mocks */,
 				D20AA60E21B8D642001082D4 /* Info.plist */,
 			);
 			path = EvenTaskTests;
@@ -392,9 +407,10 @@
 		D20AA68C21BA75CC001082D4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				D20AA68D21BA75CC001082D4 /* MoyaManager.swift */,
 				D20AA68E21BA75CC001082D4 /* Models */,
+				D20AA68D21BA75CC001082D4 /* MoyaManager.swift */,
 				D20AA69321BA75CC001082D4 /* AlamofireManager.swift */,
+				D25BBE4A21C28804008AC441 /* NetworkError.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -430,6 +446,48 @@
 				D20AA69521BA75CC001082D4 /* Router.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		D25BBE3821C26DBF008AC441 /* Externals Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D25BBE3921C26E1A008AC441 /* LocationMock.swift */,
+				D25BBE3B21C26F0E008AC441 /* CacheMock.swift */,
+				D25BBE3D21C27090008AC441 /* NetworkMock.swift */,
+				D25BBE3F21C27254008AC441 /* RouterMock.swift */,
+			);
+			path = "Externals Mocks";
+			sourceTree = "<group>";
+		};
+		D25BBE4121C273B4008AC441 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		D25BBE4221C273C9008AC441 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D25BBE4821C2758E008AC441 /* BaseModuleTests.swift */,
+				D25BBE4421C273E6008AC441 /* Authentication */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D25BBE4321C273D7008AC441 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D25BBE4421C273E6008AC441 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D25BBE4621C2746F008AC441 /* LoginTests.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 		D2CF04FF21BACBDC00622D41 /* Messages */ = {
@@ -697,6 +755,7 @@
 				D20AA68321B9D71C001082D4 /* Errors.swift in Sources */,
 				D20AA65B21B8E996001082D4 /* AddEventView.swift in Sources */,
 				D20AA64F21B8E987001082D4 /* LoginViewModel.swift in Sources */,
+				D25BBE4B21C28804008AC441 /* NetworkError.swift in Sources */,
 				D2CF04F921BAC15F00622D41 /* Storyboard.swift in Sources */,
 				D20AA69A21BA75CC001082D4 /* GoogleLocationManager.swift in Sources */,
 				D20AA63E21B8E90F001082D4 /* Dependency.swift in Sources */,
@@ -724,7 +783,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D20AA60D21B8D642001082D4 /* EvenTaskTests.swift in Sources */,
+				D25BBE4021C27254008AC441 /* RouterMock.swift in Sources */,
+				D25BBE3E21C27090008AC441 /* NetworkMock.swift in Sources */,
+				D25BBE3A21C26E1A008AC441 /* LocationMock.swift in Sources */,
+				D25BBE4721C2746F008AC441 /* LoginTests.swift in Sources */,
+				D25BBE3C21C26F0E008AC441 /* CacheMock.swift in Sources */,
+				D25BBE4921C2758E008AC441 /* BaseModuleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

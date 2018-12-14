@@ -19,7 +19,9 @@ class LoginViewModel: BaseViewModel {
             self.cache.saveObject(response.token, key: .token)
             self.router.segue(storyboard: .events(view: .eventsList))
         }.catch { (error) in
-            self.router.alert(title: "Warning", message: error.localizedDescription, actions: [("ok", .default)])
+            self.router.alert(title: "Warning",
+                              message: error.localizedDescription,
+                              actions: [("ok", .default)])
         }
     }
 }

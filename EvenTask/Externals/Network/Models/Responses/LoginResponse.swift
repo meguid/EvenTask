@@ -14,4 +14,9 @@ class LoginResponse: Codable {
         user = User()
         token = Token()
     }
+    
+    init(user: User, token: Token) {
+        self.user = user
+        self.token = token
+    }
 }

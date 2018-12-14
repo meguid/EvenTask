@@ -15,4 +15,9 @@ class Token: Codable {
         id = 0
         token = ""
     }
+    
+    init(id: Int, token: String) {
+        self.id = id
+        self.token = token
+    }
 }

@@ -8,20 +8,24 @@
 
 import Foundation
 
-struct NotValidEmailError: Error {
-    var localizedDescription: String { return "Please enter a valid email"}
-}
+enum ValidationError: Error {
+    case emptyValue(key: String)
+    case notFound(key: String)
+    case notValidEmail()
+    case notValidPassword()
 
-struct NotValidPasswordError: Error {
-    var localizedDescription: String { return "Please enter a valid password with at least 8 characters"}
+    var message: String {
+        switch self {
+        case .emptyValue(let key): return "Please fill in the \(key) value"
+        case .notFound(let key): return "\(key) is Empty"
+        case .notValidEmail(): return "Please enter a valid email"
+        case .notValidPassword(): return "Please enter a valid password with at least 8 characters"
+        }
+    }
 }
-
-struct EmptyValueError: Error {
-    var key: String
-    var localizedDescription: String { return "Please fill in the \(key) value"}
-}
-
-struct NotFoundError: Error {
-    var key: String
-    var localizedDescription: String { return "\(key) is Empty"}
+    
+extension ValidationError: LocalizedError {
+    public var errorDescription: String? {
+        return self.message
+    }
 }

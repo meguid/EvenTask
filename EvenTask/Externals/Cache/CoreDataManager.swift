@@ -16,7 +16,7 @@ class CoreDataManager: CacheProtocol {
         
     }
     
-    func removeObject(key: String) {
+    func removeObject(key: CachingKey) {
         
     }
 }
