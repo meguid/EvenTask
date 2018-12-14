@@ -16,12 +16,10 @@ protocol LocationProtocol {
 protocol CacheProtocol {
     func getObject<T>(_ object: T, key: CachingKey) -> T?
     func saveObject<T: Any>(_ object: T, key: CachingKey)
-    func removeObject(key: String)
+    func removeObject(key: CachingKey)
 }
 
 protocol NetworkProtocol {
-    func callData(url: URL, method: String, parameters: [String: Any], headers: [String: Any]) -> Promise<Data>
-    func callJson<Model: Codable>(model: Model, url: URL, method: String, parameters: [String: Any], headers: [String: Any]) -> Promise<[String: Any]>
     func callModel<T: Codable>(model: T, url: URL, method: String, parameters: [String: Any], headers: [String: Any]) -> Promise<T>
 }
 

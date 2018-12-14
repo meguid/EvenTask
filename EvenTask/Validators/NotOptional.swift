@@ -22,6 +22,6 @@ class NotOptional: BaseValidator {
         if let _ = value {
             return
         }
-        throw NotFoundError(key: key)
+        throw ValidationError.notFound(key: key)
     }
 }

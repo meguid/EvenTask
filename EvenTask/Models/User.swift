@@ -17,4 +17,10 @@ class User: Codable {
         username = ""
         imageUrl = ""
     }
+    
+    init(id: Int, username: String, imageUrl: String) {
+        self.id = id
+        self.username = username
+        self.imageUrl = imageUrl
+    }
 }

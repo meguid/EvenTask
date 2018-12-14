@@ -22,6 +22,6 @@ class IsValidPassword: BaseValidator {
                 return
             }
         }
-        throw NotValidPasswordError()
+        throw ValidationError.notValidPassword()
     }
 }
