@@ -10,6 +10,13 @@ import Foundation
 @testable import EvenTask
 
 class CacheMock: CacheProtocol {
+    func getData(key: CachingKey) -> [Data]? {
+        return (dataStorage[key] as? Data).map({[$0]})
+    }
+    
+    func saveData(_ data: Data?, key: CachingKey) {
+        dataStorage[key] = data
+    }
     
     var dataStorage: [CachingKey: Any] = [:]
     

@@ -14,8 +14,10 @@ protocol LocationProtocol {
 }
 
 protocol CacheProtocol {
-    func getObject<T>(_ object: T, key: CachingKey) -> T?
-    func saveObject<T: Any>(_ object: T, key: CachingKey)
+    func getData(key: CachingKey) -> [Data]?
+    func saveData(_ data: Data?, key: CachingKey)
+    func getObject<T: Codable>(_ object: T, key: CachingKey) -> T?
+    func saveObject<T: Codable>(_ object: T, key: CachingKey)
     func removeObject(key: CachingKey)
 }
 
