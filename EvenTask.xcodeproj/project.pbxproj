@@ -692,7 +692,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EvenTask/Pods-EvenTask-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EvenTask/Pods-EvenTask-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
 				"${BUILT_PRODUCTS_DIR}/SimpleTwoWayBinding/SimpleTwoWayBinding.framework",
@@ -707,7 +707,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvenTask/Pods-EvenTask-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EvenTask/Pods-EvenTask-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8A42A65A2F2D251B0F513CDF /* [CP] Check Pods Manifest.lock */ = {

@@ -13,7 +13,7 @@ public enum Storyboard {
 
     public func viewController(bundle: Bundle? = nil) -> UIViewController {
         return UIStoryboard(name: self.storyboard().storyboardId , bundle: bundle)
-            .instantiateViewController(withIdentifier: self.storyboard().storyboardId)
+            .instantiateViewController(withIdentifier: self.storyboard().viewId)
     }
     
     public func storyboard() -> (storyboardId: String, viewId: String) {
