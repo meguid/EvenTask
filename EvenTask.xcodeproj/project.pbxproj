@@ -35,7 +35,6 @@
 		D20AA67E21B8E9EF001082D4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA67B21B8E9EE001082D4 /* BaseView.swift */; };
 		D20AA67F21B8E9EF001082D4 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA67C21B8E9EF001082D4 /* BaseViewModel.swift */; };
 		D20AA68021B8E9EF001082D4 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA67D21B8E9EF001082D4 /* BaseInteractor.swift */; };
-		D20AA68321B9D71C001082D4 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68221B9D71C001082D4 /* Errors.swift */; };
 		D20AA69621BA75CC001082D4 /* ExternalProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68521BA75CC001082D4 /* ExternalProtocols.swift */; };
 		D20AA69721BA75CC001082D4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68721BA75CC001082D4 /* CoreDataManager.swift */; };
 		D20AA69821BA75CC001082D4 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AA68821BA75CC001082D4 /* UserDefaults.swift */; };
@@ -53,6 +52,10 @@
 		D25BBE4721C2746F008AC441 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BBE4621C2746F008AC441 /* LoginTests.swift */; };
 		D25BBE4921C2758E008AC441 /* BaseModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BBE4821C2758E008AC441 /* BaseModuleTests.swift */; };
 		D25BBE4B21C28804008AC441 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25BBE4A21C28804008AC441 /* NetworkError.swift */; };
+		D29B943921F8D033008D2CAE /* EmptyValueError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B943821F8D033008D2CAE /* EmptyValueError.swift */; };
+		D29B943B21F8D055008D2CAE /* NotFoundError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B943A21F8D055008D2CAE /* NotFoundError.swift */; };
+		D29B943D21F8D0A0008D2CAE /* NotValidEmailError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B943C21F8D0A0008D2CAE /* NotValidEmailError.swift */; };
+		D29B943F21F8D0C2008D2CAE /* NotValidPasswordError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B943E21F8D0C2008D2CAE /* NotValidPasswordError.swift */; };
 		D2CF04F921BAC15F00622D41 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF04F821BAC15F00622D41 /* Storyboard.swift */; };
 		D2CF04FE21BAC19200622D41 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF04FD21BAC19200622D41 /* Fields.swift */; };
 		D2CF050121BACBF500622D41 /* CachingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF050021BACBF500622D41 /* CachingKeys.swift */; };
@@ -117,7 +120,6 @@
 		D20AA67B21B8E9EE001082D4 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		D20AA67C21B8E9EF001082D4 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		D20AA67D21B8E9EF001082D4 /* BaseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
-		D20AA68221B9D71C001082D4 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		D20AA68521BA75CC001082D4 /* ExternalProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalProtocols.swift; sourceTree = "<group>"; };
 		D20AA68721BA75CC001082D4 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		D20AA68821BA75CC001082D4 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
@@ -135,6 +137,10 @@
 		D25BBE4621C2746F008AC441 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 		D25BBE4821C2758E008AC441 /* BaseModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModuleTests.swift; sourceTree = "<group>"; };
 		D25BBE4A21C28804008AC441 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		D29B943821F8D033008D2CAE /* EmptyValueError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyValueError.swift; sourceTree = "<group>"; };
+		D29B943A21F8D055008D2CAE /* NotFoundError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundError.swift; sourceTree = "<group>"; };
+		D29B943C21F8D0A0008D2CAE /* NotValidEmailError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotValidEmailError.swift; sourceTree = "<group>"; };
+		D29B943E21F8D0C2008D2CAE /* NotValidPasswordError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotValidPasswordError.swift; sourceTree = "<group>"; };
 		D2CF04F821BAC15F00622D41 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		D2CF04FD21BAC19200622D41 /* Fields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
 		D2CF050021BACBF500622D41 /* CachingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingKeys.swift; sourceTree = "<group>"; };
@@ -223,6 +229,7 @@
 			children = (
 				D20AA62521B8E8A5001082D4 /* Helpers */,
 				D20AA63721B8E8FA001082D4 /* Models */,
+				D29B943721F8D01F008D2CAE /* Errors */,
 				D20AA62C21B8E8E4001082D4 /* Validators */,
 				D20AA64221B8E917001082D4 /* Modules */,
 				D20AA68421BA75CC001082D4 /* Externals */,
@@ -274,7 +281,6 @@
 				D20AA63021B8E8F4001082D4 /* IsValidPassword.swift */,
 				D20AA62F21B8E8F3001082D4 /* NotEmpty.swift */,
 				D20AA63121B8E8F4001082D4 /* NotOptional.swift */,
-				D20AA68221B9D71C001082D4 /* Errors.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -488,6 +494,17 @@
 				D25BBE4621C2746F008AC441 /* LoginTests.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		D29B943721F8D01F008D2CAE /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				D29B943821F8D033008D2CAE /* EmptyValueError.swift */,
+				D29B943A21F8D055008D2CAE /* NotFoundError.swift */,
+				D29B943C21F8D0A0008D2CAE /* NotValidEmailError.swift */,
+				D29B943E21F8D0C2008D2CAE /* NotValidPasswordError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 		D2CF04FF21BACBDC00622D41 /* Messages */ = {
@@ -748,18 +765,21 @@
 				D20AA68021B8E9EF001082D4 /* BaseInteractor.swift in Sources */,
 				D20AA65C21B8E996001082D4 /* AddEventViewModel.swift in Sources */,
 				D20AA63F21B8E90F001082D4 /* Event.swift in Sources */,
+				D29B943F21F8D0C2008D2CAE /* NotValidPasswordError.swift in Sources */,
 				D20AA63621B8E8F4001082D4 /* NotOptional.swift in Sources */,
 				D20AA69F21BA75CC001082D4 /* Router.swift in Sources */,
+				D29B943B21F8D055008D2CAE /* NotFoundError.swift in Sources */,
 				D20AA64121B8E90F001082D4 /* User.swift in Sources */,
 				D20AA69921BA75CC001082D4 /* AppleLocationManager.swift in Sources */,
-				D20AA68321B9D71C001082D4 /* Errors.swift in Sources */,
 				D20AA65B21B8E996001082D4 /* AddEventView.swift in Sources */,
 				D20AA64F21B8E987001082D4 /* LoginViewModel.swift in Sources */,
 				D25BBE4B21C28804008AC441 /* NetworkError.swift in Sources */,
 				D2CF04F921BAC15F00622D41 /* Storyboard.swift in Sources */,
 				D20AA69A21BA75CC001082D4 /* GoogleLocationManager.swift in Sources */,
 				D20AA63E21B8E90F001082D4 /* Dependency.swift in Sources */,
+				D29B943921F8D033008D2CAE /* EmptyValueError.swift in Sources */,
 				D20AA63321B8E8F4001082D4 /* BaseValidator.swift in Sources */,
+				D29B943D21F8D0A0008D2CAE /* NotValidEmailError.swift in Sources */,
 				D20AA69E21BA75CC001082D4 /* AlamofireManager.swift in Sources */,
 				D2CF04FE21BAC19200622D41 /* Fields.swift in Sources */,
 				D20AA67E21B8E9EF001082D4 /* BaseView.swift in Sources */,
