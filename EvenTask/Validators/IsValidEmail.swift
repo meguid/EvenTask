@@ -22,7 +22,7 @@ class IsValidEmail: BaseValidator {
                 return
             }
         }
-        throw ValidationError.notValidEmail()
+        throw NotValidEmailError()
     }
     
     func isValid(email: String) -> Bool {
